@@ -17,8 +17,8 @@ def router_connected():
     while True:
 
         IPaddress = socket.gethostbyname(socket.gethostname())
-
-        if IPaddress != "127.0.0.1":
+        
+        if "127.0." != IPaddress[0:6]: #if socket host address is not your local loopback address
             #when connection is re-established after x amount of reconnect attemps, log the total time of the disconnect
             if routerConnectAttempts >= 3: #don't log if connection is down briefly
                 log_disconnect("router")
