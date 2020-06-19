@@ -2,12 +2,6 @@
 
 ## Description
 
-I created two means of keeping track of the duration of internet outages. The outages times will be stored within the records folder that is created in the same location the script file is ran in within a text file.
+A simple python script that logs the total time interval of a disconnect from either a router or internet connection to a text file.
 
-## connection_checker
-
-Checks your current IP address.
-
-## connection_checker
-
-Checks to see if it can maintain a connection to a google.com.
+EX: Time disconnected from router: 18 Jun 23:02:49 - 18 Jun 23:04:49
