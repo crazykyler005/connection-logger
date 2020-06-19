@@ -1,4 +1,4 @@
-# connection-logger
+# disconnection-logger
 
 ## Description
 
